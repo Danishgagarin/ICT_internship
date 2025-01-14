@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-between; /* Push elements to opposite sides */
+    align-items: center; /* Vertically align items */
+    position: fixed; /* Fix header at the top */
+    top: 0; /* Position at the top of the viewport */
+    left: 0;
+    right: 0;
+    background-color: white; /* Optional: Add background color */
+    padding: 10px 20px; /* Add spacing inside the header */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+   
+} 
+ 
+.nav-links {
+    display: flex;
+    gap: 20px; /* Add space between navigation links */
+}
+
+.topLink {
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
