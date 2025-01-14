@@ -1,0 +1,42 @@
+header {
+    border-bottom: 1px solid lightgray; 
+    padding-bottom: 20px; 
+}
+
+
+.header{
+    padding-right: 200px;
+    padding-left: 150px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topLink{
+    padding-left: 40px;
+    color: #666;
+}
+
+.intro {
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}   
+
+.button{
+    display: flex; justify-content: center;
+}
+button{
+    background-color: #387ed1;
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 3px;
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    font-size: 20px;
+}
